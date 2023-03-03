@@ -1,6 +1,6 @@
 <h1>
 	这是
-	<a class="link" href="https://github.com/PPPxcy">
+	<a class="link" href="https://github.com/PPPxcy" target="_blank">
 		PPPxcy
 	</a>
 	的第一个网页。
