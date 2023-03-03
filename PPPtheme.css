@@ -1,0 +1,50 @@
+body {
+	background: linear-gradient(#FFF, #FFF, #FFF, #FFF, #FFF, #FFF, #FFF, #F7F7F7) fixed;
+}
+div.head {
+	margin: 0;
+	padding: 0;
+	top: 0vh;
+	left: 0vw;
+	width: 100vw;
+	height: 5vh;
+	border: 1px solid #CCC;
+	position: fixed;
+}
+div.head-info {
+	margin-top: 0.5vh;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-bottom: 0.5vh;
+	height: 4vh;
+}
+div.main {
+	margin-top: 7.5vh;
+	margin-bottom: 2.5vh;
+	width: 80vw;
+	min-height: 70vh;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 6.25px 6.25px 2.5px 0px #0003;
+}
+button.head-button {
+	border: none;
+	height: 4vh;
+	width: 8vw;
+	background-color: #0000;
+}
+div.foot {
+	color: #AAA;
+	margin: 10vh 0 0;
+	padding: 0;
+	height: 10vh;
+	width: 96vw;
+	text-align: center;
+}
+a.link {
+	color: #0AF;
+	text-decoration: none;
+}
+a.link:hover {
+	color: #09D;
+}
