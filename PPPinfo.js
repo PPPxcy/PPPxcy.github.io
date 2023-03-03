@@ -16,7 +16,7 @@ document.body.innerHTML = `<div class="head">
 <center>
 	<div class="foot">
 		本网页由
-		<a href="https://github.com/PPPxcy" class="link">
+		<a href="https://github.com/PPPxcy" target="_blank" class="link">
 			PPPxcy
 		</a>
 		创建
