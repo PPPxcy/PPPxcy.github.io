@@ -1,7 +1,18 @@
 <h1>
 	这是
-	<a class="link" href="https://github.com/PPPxcy" target="_blank">
+	<a class="link" href="https://github.com/PPPxcy">
 		PPPxcy
 	</a>
 	的第一个网页。
 </h1>
+<pre><code code-language="Cpp" ppp-not-highlighted>#include &lt;bits/stdc++.h&gt;
+using namespace std;
+int main() {
+	printf(&quot;\\Hello\&quot;\
+%c&quot;, '\'');
+	return /*...*/0ll.0;
+//*	The end\
+The end!!!*/
+	/*	The end\
+The end!!!*/
+}</code></pre>
