@@ -1,0 +1,46 @@
+/* PPPhighlightor.css */
+span.PPP-Cpp-symbol {
+	color: #F00;
+}
+span.PPP-Cpp-identifier {
+	color: #000;
+}
+span.PPP-Cpp-keyword {
+	color: #08D;
+}
+span.PPP-Cpp-number {
+	color: #FA0;
+}
+span.PPP-Cpp-string {
+	color: #077;
+}
+span.PPP-Cpp-charactor {
+	color: #0AA;
+}
+span.PPP-Cpp-comment {
+	color: #AAA;
+}
+span.PPP-Cpp-preprocessor {
+	color: #070;
+}
+code[PPP-not-highlighted] {
+	white-space: pre;
+	tab-size: 4;
+}
+code[PPP-highlighted] {
+	white-space: pre;
+	tab-size: 4;
+}
+input.PPP-copier {
+	float: right;
+	border-radius: 1.5625px;
+	color: #08D;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+}
+pre {
+	background-color: #FFF;
+	overflow: auto;
+	border: 1px solid #0003;
+	box-shadow: 2.5px 2.5px 1.25px 0px #0003;
+}
