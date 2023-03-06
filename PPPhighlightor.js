@@ -18,17 +18,17 @@ function htmlEscape(text) {
 function copierCopy(Copier, Counter) {
 	let copyData = `${document.getElementsByClassName(`PPP-code-id${Counter}`)[0].getAttribute("PPP-text-info")}`;
 	let textArea = document.createElement("textarea");
-	document.body.appendChild(textArea);
 	textArea.value = copyData;
 	textArea.style.position = "absolute";
 	textArea.style.left = "-100000000vw";
 	textArea.style.top = "-100000000vh";
 	textArea.style.opacity = "0";
+	document.body.appendChild(textArea);
 	textArea.focus();
 	textArea.select();
 	document.execCommand("copy");
 	textArea.remove();
-	Copier.value = "Copy successful";
+	Copier.value = "Copied successful";
 	Copier.style.color = "#FFF";
 	let colors = [
 		"#08D",
@@ -274,6 +274,7 @@ while(document.querySelector("code[PPP-not-highlighted]") != null) {
 
 	document.querySelector("code[PPP-not-highlighted]").innerHTML = innerhtml;
 	document.querySelector("code[PPP-not-highlighted]").setAttribute("PPP-highlighted", "");
+	document.querySelector("code[PPP-not-highlighted]").setAttribute("PPP-text-info", `${innertext.substring(1, innertext.length - 1)}`);
 	document.querySelector("code[PPP-not-highlighted]").setAttribute("class", document.querySelector("code[PPP-not-highlighted]").getAttribute("class") + ` PPP-code-id${Count}`);
 	document.querySelector("code[PPP-not-highlighted]").removeAttribute("PPP-not-highlighted");
 	Count++;
