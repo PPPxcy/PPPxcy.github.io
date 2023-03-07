@@ -281,5 +281,6 @@ setInterval(
 			document.querySelector("code[PPP-not-highlighted]").removeAttribute("PPP-not-highlighted");
 			Count++;
 		}
+		console.log('AC');
 	}, 1000 / 6
 );
