@@ -11,6 +11,7 @@ div.head {
 	border: 1px solid #CCC;
 	background-color: #FFF;
 	position: fixed;
+	z-index: 998244353;
 }
 div.head-info {
 	margin-top: 0.5vh;
