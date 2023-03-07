@@ -15,8 +15,6 @@ function htmlEscape(text) {
 	}); 
 }
 
-console.log('AHA!');
-
 function copierCopy(Copier, Counter) {
 	let copyData = `${document.getElementsByClassName(`PPP-code-id${Counter}`)[0].getAttribute("PPP-text-info")}`;
 	let textArea = document.createElement("textarea");
@@ -283,6 +281,5 @@ setInterval(
 			document.querySelector("code[PPP-not-highlighted]").removeAttribute("PPP-not-highlighted");
 			Count++;
 		}
-		console.log('AC');
 	}, 1000 / 6
 );
