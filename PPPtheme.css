@@ -19,6 +19,7 @@ div.head-info {
 	height: 4vh;
 }
 div.main {
+	text-align: left;
 	margin-top: 7.5vh;
 	margin-bottom: 2.5vh;
 	margin-left: 10vw;
