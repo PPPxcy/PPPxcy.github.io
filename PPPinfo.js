@@ -10,7 +10,9 @@ document.body.innerHTML = `<div class="head">
 		</a>
 	</div>
 </div>
-<div id="main" class="main"></div>
+<center>
+	<div id="main" class="main"></div>
+</center>
 <center>
 	<div class="foot">
 		本网页由
