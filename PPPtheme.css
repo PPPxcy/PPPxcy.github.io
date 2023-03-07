@@ -9,6 +9,7 @@ div.head {
 	width: 100vw;
 	height: 5vh;
 	border: 1px solid #CCC;
+	background-color: #FFF;
 	position: fixed;
 }
 div.head-info {
