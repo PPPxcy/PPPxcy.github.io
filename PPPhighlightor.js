@@ -15,6 +15,8 @@ function htmlEscape(text) {
 	}); 
 }
 
+console.log('AHA!');
+
 function copierCopy(Copier, Counter) {
 	let copyData = `${document.getElementsByClassName(`PPP-code-id${Counter}`)[0].getAttribute("PPP-text-info")}`;
 	let textArea = document.createElement("textarea");
