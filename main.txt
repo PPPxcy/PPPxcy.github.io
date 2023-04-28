@@ -1,3 +1,5 @@
+<h3>Warning: This site will be closed and move to my own site (Without GitHub, but have no domain name nor a unchangeable IP address) soonly.</h3>
+
 <h1>
 	这是
 	<a class="link" href="https://github.com/PPPxcy">
